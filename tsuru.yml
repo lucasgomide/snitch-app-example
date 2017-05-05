@@ -1,5 +1,4 @@
 hooks:
   build:
     - curl -sSL https://github.com/lucasgomide/snitch/releases/download/0.1.0/snitch_0.1.0_linux_amd64.tar.gz | tar xz
-    - ./snitch_linux/snitch -hook slack -hook-url
-      https://hooks.slack.com/services/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
+    - ./snitch_linux/snitch -c snitch.yml
