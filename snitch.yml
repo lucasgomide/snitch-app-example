@@ -1,2 +1,11 @@
 slack:
-  webhook_url: https://hooks.slack.com/services/123/as123/asd123
+  webhook_url: $SLACK_WEB_HOOK_URL
+sentry:
+  host: http://sentry.io
+  organization_slug: org-slug
+  project_slug: snitch
+  auth_token: $SENTRY_AUTH_TOKEN
+  env: $APP_ENV
+rollbar:
+  access_token: $ROLLBAR_ACCESS_TOKEN
+  env: $APP_ENV
